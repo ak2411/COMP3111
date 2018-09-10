@@ -3,7 +3,9 @@
  */
 public class Library {
     public static void main(String arg[]) {
-    	System.out.println("hi");
+    	Library lib = new Library();
+    	if(lib.someLibraryMethod())
+    		System.out.println("hi");
     }
     public boolean someLibraryMethod() {
     	return true;
